@@ -5,6 +5,7 @@ import './App.css'
 import Header from './shared/Header'
 import ProductList from './features/bookList'
 import BookForm from './features/bookForm'
+import Main from './Components/Main'
 
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
 
       <ProductList />
       <BookForm isOpen={isOpen} onClose={onClose} />
+      <Main>
+        <p>Hellow</p>
+      </Main>
     </Box>
 
   )
