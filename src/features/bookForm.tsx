@@ -38,6 +38,7 @@ const BookForm = ({ isOpen, onClose }: bookFormProps) => {
             </VStack>
           </ModalBody>
           <ModalFooter>
+            {JSON.stringify(book)}
             <Button variant={'ghost'} mr={3} onClick={onClose}>
               Close
             </Button>
